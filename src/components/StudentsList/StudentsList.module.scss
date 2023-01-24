@@ -1,0 +1,49 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  border: black;
+  text-align: center;
+  &_form {
+    margin: 20px 0 20px 0;
+    &_addBtn {
+      padding: 2px;
+      border-radius: 2px;
+      background-color: #4caf50;
+      border: solid 1px #878787;
+      color: snow;
+    }
+    &_addBtnEdit {
+      background-color: #ff8b8b;
+    }
+    &_cursor {
+      //border: solid 1px #4caf50;
+      //padding: 1px;
+      cursor: pointer;
+    }
+    &_cursorText {
+      cursor: text;
+    }
+  }
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    thead {
+      background-color: #9a9a9a;
+    }
+    tr,
+    td,
+    th {
+      padding: 20px;
+      border: 1px solid black;
+    }
+  }
+  &_editBtn {
+    width: 100px;
+    height: 40px;
+    border-radius: 20%;
+  }
+  &_editBtnActive {
+    text-decoration: line-through;
+    cursor: auto;
+  }
+}
